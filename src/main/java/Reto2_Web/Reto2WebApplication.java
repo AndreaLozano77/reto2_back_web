@@ -15,6 +15,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.stereotype.Component;
 
 @Component
+
 @SpringBootApplication
 public class Reto2WebApplication implements CommandLineRunner {
    @Autowired
@@ -30,5 +31,4 @@ public class Reto2WebApplication implements CommandLineRunner {
         interfaceUser.deleteAll();
     }
         
-
 }
